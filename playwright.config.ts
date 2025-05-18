@@ -13,6 +13,7 @@ const config = {
   use: {
     browserName: 'chromium',
     channel: 'chrome',
+    video: 'on',
     headless: false,
     viewport: null,
     screenshot: 'only-on-failure',
